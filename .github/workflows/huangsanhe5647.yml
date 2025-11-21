@@ -2,8 +2,8 @@ name: huangsanhe5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
-jobs:  # 28962
+    - cron: '45 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +11,12 @@ jobs:  # 28962
       - uses: actions/checkout@v4
       - name: huangsanhe5647
         env:
-          lszv709: ${{ secrets.lszv709 }}
+          rd900: ${{ secrets.rd900 }}
         run: |
-          echo $lszv709 | jq -r .zazn975 | /bin/bash
-          echo $gomg45989 | jq -r .hiqht3988 | /bin/bash
-          echo $ymb1 | jq -r .z27691 | /bin/bash
-          echo $obdmm4 | jq -r .tp4 | /bin/bash
-          echo $u589 | jq -r .vzpig91 | /bin/bash
-          echo $h60 | jq -r .d696 | /bin/bash
-          echo $zj4 | jq -r .dka6299 | /bin/bash
+          echo $rd900 | jq -r .jum2041 | /bin/bash
+          echo $mrq940 | jq -r .hwnl4835 | /bin/bash
+          echo $uiyvc7 | jq -r .rt84337 | /bin/bash
+          echo $ywfe5 | jq -r .svhf17 | /bin/bash
+          echo $fp38938 | jq -r .yygsd67 | /bin/bash
+          echo $qd75 | jq -r .gh346 | /bin/bash
 
